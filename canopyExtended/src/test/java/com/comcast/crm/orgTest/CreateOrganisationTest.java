@@ -59,7 +59,7 @@ public class CreateOrganisationTest extends BaseClass {
 		OrganizationInfoPage oip=new OrganizationInfoPage(driver);
 
 		String actOrgName =oip.getOrgNameMessage().getText();// driver.findElement(By.xpath("//span[@id='dtlview_Organization Name']")).getText();
-		Assert.assertEquals(actOrgName, orgname+"Af");
+		Assert.assertEquals(actOrgName, orgname);
 		
 
 	}
